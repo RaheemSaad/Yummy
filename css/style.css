@@ -1,0 +1,30 @@
+.nav-header img{
+    width: 50px;
+}
+.open-close-icon{
+    cursor: pointer;
+}
+.fa-align-justify{
+    cursor: pointer;
+}
+.meanLayer{
+    background-color: rgba(255, 255, 255, 0.594);
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    transition: 0.5s;
+}
+.meal:hover .meanLayer{
+    top: 0;
+}
+
+.loading-screen{
+    display: flex;
+    z-index: 9999;
+}
+.inner-loading-screen{
+    position: absolute;
+    display: flex;
+    z-index: 9999;
+    background-color: #0d0d0d;
+}
